@@ -41,6 +41,7 @@ export default defineNuxtConfig({
   
 
   runtimeConfig: {
+
     // SERVER‑ONLY (nikdy neposílat do clienta)
     GCAL_SERVICE_ACCOUNT_KEY_B64: process.env.GCAL_SERVICE_ACCOUNT_KEY_B64,
     GCAL_CALENDAR_ID: process.env.GCAL_CALENDAR_ID,
@@ -57,7 +58,7 @@ export default defineNuxtConfig({
 
     // PUBLIC (může číst prohlížeč)
     public: {
-      apiBase: '', // může zůstat prázdné, Nuxt použije stejné origin
+      apiBase: process.env.NUXT_PUBLIC_API_BASE || '', // může zůstat prázdné, Nuxt použije stejné origin
     }
   },
 });
