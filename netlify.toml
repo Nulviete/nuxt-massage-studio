@@ -1,0 +1,9 @@
+[build]
+  command = "NITRO_PRESET=netlify npm run build"
+  publish = ".output/public"
+
+# po build-u bude funkce na /.netlify/functions/server
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200

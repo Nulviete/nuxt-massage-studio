@@ -6,6 +6,9 @@ export default defineNuxtConfig({
     port: 5174,
     host: "127.0.0.1",
   },
+  nitro: {
+    preset: 'netlify'
+  },
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   css: ["@/assets/css/main.css"],
@@ -35,6 +38,7 @@ export default defineNuxtConfig({
       saveRedirectToCookie: true,
     },
   },
+  
 
   runtimeConfig: {
     // SERVER‑ONLY (nikdy neposílat do clienta)
