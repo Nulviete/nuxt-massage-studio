@@ -65,7 +65,7 @@ function openDetails(s: Service) {
             </div>
             <div class="shrink-0 rounded-xl overflow-hidden">
               <img
-                :src="`_nuxt/assets/images/massages/${s.id}.jpg`"
+                :src="`images/massages/${s.id}.jpg`"
                 alt=""
                 class="w-20 h-20 object-cover"
               />
