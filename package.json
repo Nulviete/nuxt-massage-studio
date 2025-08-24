@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "@fullcalendar/vue3": "^6.1.15",
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "@nuxt/ui": "^3.3.2",
+    "@nuxtjs/supabase": "^1.6.0",
+    "@pinia/nuxt": "^0.11.2",
+    "@tailwindcss/vite": "^4.1.11",
+    "googleapis": "^156.0.0",
+    "node-fetch": "^3.3.2",
+    "nuxt": "^4.0.3",
+    "pinia": "^3.0.3",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.9.2",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1",
+    "zod": "^4.0.17"
+  },
+  "overrides": {
+    "whatwg-url": "^14.0.0",
+    "tr46": "^4.1.1",
+    "webidl-conversions": "^7.0.0"
+  }
+}
